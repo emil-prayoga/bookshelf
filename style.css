@@ -207,7 +207,7 @@ button[data-testid="bookItemEditButton"] {
 
 @media (max-width:768px){
     html {
-    background-attachment: scroll; /* default */
+    background-attachment: scroll; 
   }
     main {
         margin-top: 60px;
@@ -259,7 +259,15 @@ button[data-testid="bookItemEditButton"] {
         width: 95.75%;
     }
      #searchBookTitle {
-        width: 459px !important;
+        width: 457px !important;
     }
 }
 
+@media (max-width: 767px) and (orientation: portrait) {
+  main {
+    margin-top: 60px;
+  }
+  html {
+    background-attachment: scroll; 
+  }
+}
