@@ -210,7 +210,7 @@ button[data-testid="bookItemEditButton"] {
     background-attachment: scroll; 
   }
     main {
-        margin-top: 60px;
+        margin-top: 70px;
     }
     .container-kedua, .container-ketiga, .container-keempat, .container-lima {
         width: 325px;
