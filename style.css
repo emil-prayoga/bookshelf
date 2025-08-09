@@ -263,7 +263,7 @@ button[data-testid="bookItemEditButton"] {
     }
 }
 
-@media (max-width: 767px) and (orientation: portrait) {
+@media (orientation: portrait) {
   main {
     margin-top: 60px;
   }
