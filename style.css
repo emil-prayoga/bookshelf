@@ -268,25 +268,22 @@ button[data-testid="bookItemEditButton"] {
         background-attachment: scroll; 
     }
     body{
-        margin: 0;
+        margin-bottom: 75px;
         padding: 0;
         justify-content: flex-start;
+        min-height: 100vh;
         flex-direction: column; 
-        margin: 0;
         padding: 0;
         align-items: center;
         display: flex;
     }
+
      h1 {
         font-size: 1.8rem;
     }
    
     h2{
         font-size: 1.5rem;
-    }
-
-    .container-pertama{
-        min-height: 100px;
     }
 
 }
