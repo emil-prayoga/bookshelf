@@ -264,10 +264,29 @@ button[data-testid="bookItemEditButton"] {
 }
 
 @media (orientation: portrait) {
-  main {
-    margin-top: 60px;
-  }
-  html {
-    background-attachment: scroll; 
-  }
+    html {
+        background-attachment: scroll; 
+    }
+    body{
+        margin: 0;
+        padding: 0;
+        justify-content: flex-start;
+        flex-direction: column; 
+        margin: 0;
+        padding: 0;
+        align-items: center;
+        display: flex;
+    }
+     h1 {
+        font-size: 1.8rem;
+    }
+   
+    h2{
+        font-size: 1.5rem;
+    }
+
+    .container-pertama{
+        min-height: 100px;
+    }
+
 }
